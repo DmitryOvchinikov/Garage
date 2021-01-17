@@ -31,10 +31,6 @@ public class Activity_GarageParent extends AppCompatActivity {
         garage_LBL_title.setText(title);
     }
 
-    protected void setGarageColor(int color) {
-        garage_layout.setBackgroundColor(color);
-    }
-
 
 
 }

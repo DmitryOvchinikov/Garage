@@ -5,15 +5,12 @@ import android.os.Bundle;
 
 import com.classy.common.Activity_GarageParent;
 
-public class Activity_Customer extends Activity_GarageParent {
-
-    private final int GARAGE_COLOR = Color.parseColor("#A4FA39");
+public class Activity_Garage extends Activity_GarageParent {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         setTitle("Garage App: Customer");
-        setGarageColor(GARAGE_COLOR);
     }
 }
