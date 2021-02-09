@@ -1,7 +1,5 @@
 package com.classy.owner;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
 import com.classy.common.Activity_GarageParent;
@@ -12,6 +10,6 @@ public class Activity_Garage extends Activity_GarageParent {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setTitle("Garage App: Owner");
+        setTitle("Welcome, Owner!");
     }
 }
