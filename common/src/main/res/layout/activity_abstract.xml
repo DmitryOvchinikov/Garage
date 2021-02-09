@@ -20,14 +20,14 @@
 
         <View
             android:layout_width="wrap_content"
-            android:layout_height="0dp"
-            android:layout_weight="1" />
+            android:layout_height="200dp" />
 
         <TextView
             android:id="@+id/garage_LBL_info"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:gravity="center"
             android:text="Garage Info Placeholder"
             android:textSize="28sp" />
     </LinearLayout>
